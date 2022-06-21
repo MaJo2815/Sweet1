@@ -1,0 +1,75 @@
+:root {
+	 --f7-navbar-bg-color: #e62e65;
+	 --body-bg-color: #ffe3eb;
+	 --f7-navbar-link-color:#fff;
+	 --f7-navbar-text-color: #ffe3eb;
+	
+}
+
+
+.navbar{
+	padding: 35px 10px;
+}
+
+.title{
+	font-weight: 800;
+}
+
+.page-content{
+	background-color: var( --body-bg-color);
+}
+
+.card{
+	padding: 10px 25px;
+	border-radius: 10%;
+}
+
+#block-title {
+	color: #0f0b0c;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+#postresh a{
+	text-align: center;
+	color: #0f0b0c;
+}
+
+#postresh .producto, .producto{
+	font-size: 35px;
+	color: #0f0b0c;
+	text-align: center;
+}
+
+#postresh .est, .est{
+	font-size: 20px;
+	color: #0f0b0c;
+	text-align: center;
+	
+}
+
+.panel.panel-left{
+	background-color: #380915;
+	color:  #ffe3eb;
+}
+
+#perfil-1{
+	color: #380915;
+}
+
+.item-link{
+	background-color: #380915;
+}
+
+.usuario{
+	color: #ffe3eb;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+}
+.img-fluid{
+	max-width: 100%;
+	display: block;
+	text-align: center;
+}
