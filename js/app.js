@@ -28,6 +28,11 @@ var app = new Framework7({
     	url: 'productos.html',
     	name: 'productos',
   		},
+		{
+		path: '/carrito/',
+    	url: 'carrito.html',
+    	name: 'carrito',
+  		}
 	],
 	dialog: {
 		title: 'Sweet!',
@@ -65,23 +70,34 @@ $$('#btnLogin').on('click', function (e) {
 
 
 
-$$(document).on('click', '#btnAddCart', function (e) {
+
+$$(document).on('click', '#btnCheckout', function (e) {
 	e.preventDefault();
 
-	
-	var notification = app.notification.create({
-      icon: '<i class="material-icons">check</i>',
-      title: 'Order',
-      titleRightText: '',
-      subtitle: '',
-      text: "Your order has been received.",
-      closeTimeout: 3000,
-    });
-    notification.open();
+	app.dialog.confirm('¿Seguro desea finalizar su compra?', function () {	
+
+		var notification = app.notification.create({
+
+		 icon: '<i class="material-icons">check</i>',
+
+		 title: 'Order',
+
+		 titleRightText: '',
+
+		 subtitle: '',
+
+		 text: "Tu orden ha sido recibida",
+
+		 closeTimeout: 3000,
+
+		});
+
+		notification.open();
+
+		
+
+	});
 	
 });
-
-
-
 
 

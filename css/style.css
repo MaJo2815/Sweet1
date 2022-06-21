@@ -73,3 +73,55 @@
 	display: block;
 	text-align: center;
 }
+
+#texto-perfil{
+	text-align: center;
+}
+
+#productos a .postre, .postre{
+	color: #0f0b0c;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+#productos a .descrip, .descrip{
+	color: #0f0b0c;
+	text-align: left;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+#productos a .precio, .precio{
+	color:rgba(247,24,86,1.00);
+	text-align: left;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+#carrito .titu-cate{
+	color: #0f0b0c;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#carrito .titu-carrito{
+	color: #0f0b0c;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+#carrito .precio-carrito{
+	color: #392E2E;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+#carrito p{
+	color: #392E2E;
+	text-align: center;
+}
